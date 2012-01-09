@@ -6,22 +6,22 @@
 --------------------Configuration: MSRConverter - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0xc0a /fo"Release/MSRConverter.res" /d "NDEBUG" /d "_AFXDLL" "C:\MSRConverter\MSRConverter.rc"" 
-Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP8.tmp" with contents
+Creating command line "rc.exe /l 0xc0a /fo"Release/MSRConverter.res" /d "NDEBUG" /d "_AFXDLL" "F:\proyectos\MSRConverter\MSRConverter.rc"" 
+Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP19.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D _WIN32_WINNT=1024 /Fp"Release/MSRConverter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\MSRConverter\MSRConverter.cpp"
-"C:\MSRConverter\MSRConverterDlg.cpp"
-"C:\MSRConverter\ImageLoader.cpp"
+"F:\proyectos\MSRConverter\MSRConverter.cpp"
+"F:\proyectos\MSRConverter\MSRConverterDlg.cpp"
+"F:\proyectos\MSRConverter\ImageLoader.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP8.tmp" 
-Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP9.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP1A.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D _WIN32_WINNT=1024 /Fp"Release/MSRConverter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\MSRConverter\StdAfx.cpp"
+"F:\proyectos\MSRConverter\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP9.tmp" 
-Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSPA.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP1B.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/MSRConverter.pdb" /machine:I386 /out:"Release/MSRConverter.exe" 
 .\Release\MSRConverter.obj
@@ -30,7 +30,7 @@ Creating temporary file "C:\DOCUME~1\Luis\CONFIG~1\Temp\RSPA.tmp" with contents
 .\Release\StdAfx.obj
 .\Release\MSRConverter.res
 ]
-Creating command line "link.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSPA.tmp"
+Creating command line "link.exe @C:\DOCUME~1\Luis\CONFIG~1\Temp\RSP1B.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
@@ -40,7 +40,7 @@ MSRConverter.cpp
 MSRConverterDlg.cpp
 ImageLoader.cpp
 Generating Code...
-C:\MSRConverter\MSRConverterDlg.cpp(71) : warning C4700: local variable 'rect' used without having been initialized
+F:\proyectos\MSRConverter\MSRConverterDlg.cpp(71) : warning C4700: local variable 'rect' used without having been initialized
 Linking...
 
 
